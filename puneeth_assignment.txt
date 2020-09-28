@@ -1,0 +1,62 @@
+1) s1="Abc" s2="Xyz"
+ans: 
+s1="Abc"
+s2="Xyz"
+for i in s1:
+      print(i)
+       for j in s2[: : -1]:
+	print(j)
+
+2)
+ans:
+str1=Welcome to USA in given string ignoring the case
+count=str1.count(USA|usa)
+print(count)
+
+3)Return Middle Character os gthe string
+ans:
+def middle_char(txt):
+   return txt[(len(txt)-1)//2:(len(txt)+2)//2]
+str="pentagonspace"
+print(middle_char(str))
+
+4) Can't ANSWER please explian in class
+
+5)
+ans:
+i=1
+while(i<=10):
+         print(2*i)
+         i++
+6)
+ans:
+def Reverse(lst): 
+    new_lst = lst[::-1] 
+    return new_lst 
+      
+lst = [10,20,30,40,50] 
+print(Reverse(lst)) 
+
+
+7)
+ans:
+fact = 1
+        while(n > 1): 
+            fact *= n 
+            n -= 1
+        return fact 
+print(fact)
+
+8)
+ans:
+var1=float(input("enter 5 float number"))
+for i range(1,5):
+var1=i
+
+print(var1)
+
+
+
+
+END
+  
